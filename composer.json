@@ -1,0 +1,28 @@
+{
+  "name": "fyi/cms",
+  "description": "FYI Cms package",
+  "keywords": [
+    "fyi",
+    "cms"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "FYI",
+      "email": "info@fyi.pt"
+    }
+  ],
+  "type": "library",
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "^6.3",
+    "doctrine/dbal": "^2.9",
+    "gumlet/php-image-resize": "1.9.*",
+    "claviska/simpleimage": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Fyi\\Cms\\": "src/"
+    }
+  }
+}
