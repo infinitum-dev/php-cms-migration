@@ -1,6 +1,6 @@
 {
-  "name": "fyi/cms",
-  "description": "FYI Cms package",
+  "name": "fyi/cms-migration",
+  "description": "FYI CMS Migration package",
   "keywords": [
     "fyi",
     "cms"
