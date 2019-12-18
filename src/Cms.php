@@ -10,7 +10,7 @@
 
 namespace Fyi\Cms;
 
-require_once __DIR__ . '/../vendor/autoload.php';
+//require_once __DIR__ . '/../vendor/autoload.php';
 
 use Fyi\Cms\Modules\Connection\Source;
 use Fyi\Cms\Modules\Connection\Destiny;
