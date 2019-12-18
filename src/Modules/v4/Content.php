@@ -499,7 +499,7 @@ class Content
                 continue;
             }
 
-            $newPath = $params["path"] . $name;
+            $newPath = $params["pathToSave"] . $name;
 
             try {
                 copy($localFile, $newPath);
@@ -512,7 +512,7 @@ class Content
             $sql = $queryBuilder;
             $sql
                 ->update("contentsLanguages")
-                ->set("image", "\"" . $newPath . "\"")
+                ->set("image", "\"" . $params["path"] . $name . "\"")
                 ->where("content_id = " . $params["content_id"]);
     
             $this->connection->query($sql);
